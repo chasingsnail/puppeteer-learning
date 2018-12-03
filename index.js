@@ -32,5 +32,5 @@ const iPhone = devices['iPhone 6']
   await page.goto(targetLink)
 
   // 关闭浏览器
-  // await browser.close()
+  await browser.close()
 })()
